@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Application">
+      <UniqueIdentifier>{a744cd45-8c24-49e8-af79-7ecfc137ae72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Application\Engine">
+      <UniqueIdentifier>{09cf32a3-4e69-46dc-a8d8-cd26a35b8139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Application\System">
+      <UniqueIdentifier>{0cd4191f-2b9d-459d-9147-46f3702906ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Application\Component">
+      <UniqueIdentifier>{a8697737-a016-4c6d-be9c-1987711ed813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Application\Definition">
+      <UniqueIdentifier>{ddb92403-4fe0-4fe1-86f7-ac58fd8fad87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core">
+      <UniqueIdentifier>{795bd923-3c60-4425-81f9-153b2cde63ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\ECS">
+      <UniqueIdentifier>{ea5076dc-7b43-493e-b97a-e94b1e71d507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Communication">
+      <UniqueIdentifier>{4b040a41-55bd-478b-a6cc-cfd5e2fde34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core">
+      <UniqueIdentifier>{71ed7490-d117-464b-9098-42ace850debd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core\ECS">
+      <UniqueIdentifier>{f6022652-a693-4711-879a-cf2e830ca812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core\Communication">
+      <UniqueIdentifier>{cfb95462-b492-4971-9639-e6d1148b85dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Application">
+      <UniqueIdentifier>{78e26d54-660f-4208-bef5-508b199b8ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Application\Component">
+      <UniqueIdentifier>{42ff452d-d28e-40dc-9483-724fc408f898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Application\Engine">
+      <UniqueIdentifier>{1e702e1f-6ab2-43f2-bfe9-6a1a6b0f75ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Application\System">
+      <UniqueIdentifier>{c28eb72a-9c3b-4855-bfa1-1c8389486925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Application\Entity">
+      <UniqueIdentifier>{3bbad782-1b3c-45c7-82ec-a8b9b1925170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Application\Entity">
+      <UniqueIdentifier>{ca57b34e-305c-44a2-b4d4-5e715c0f1b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Vendor">
+      <UniqueIdentifier>{686e7e66-b22e-4b04-99e4-7cf6334844da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Vendor">
+      <UniqueIdentifier>{54591f06-693c-491c-9f66-f5c752b51e0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Fichiers sources\Core\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Fichiers sources\Core\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Fichiers sources\Core\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Communicable.cpp">
+      <Filter>Fichiers sources\Core\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="Office.cpp">
+      <Filter>Fichiers sources\Core\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicEngine.cpp">
+      <Filter>Fichiers sources\Application\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Fichiers sources\Core\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="Limiter.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Fichiers sources\Core\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="FiniteStateMachine.cpp">
+      <Filter>Fichiers sources\Core\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractMessage.cpp">
+      <Filter>Fichiers sources\Core\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentManager.cpp">
+      <Filter>Fichiers sources\Core\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentUser.cpp">
+      <Filter>Fichiers sources\Core\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicEngine.cpp">
+      <Filter>Fichiers sources\Application\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Fichiers sources\Application\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Fichiers sources\Vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayGrid.cpp">
+      <Filter>Fichiers sources\Application\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Fichiers sources\Core\ECS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.hpp">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Communicable.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Office.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="System.hpp">
+      <Filter>Fichiers d%27en-tête\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.hpp">
+      <Filter>Fichiers d%27en-tête\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.hpp">
+      <Filter>Fichiers d%27en-tête\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicEngine.hpp">
+      <Filter>Fichiers d%27en-tête\Application\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Limiter.hpp">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="HeavyMessage.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="FiniteStateMachine.hpp">
+      <Filter>Fichiers d%27en-tête\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMessage.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.hpp">
+      <Filter>Fichiers d%27en-tête\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.hpp">
+      <Filter>Fichiers d%27en-tête\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentManager.hpp">
+      <Filter>Fichiers d%27en-tête\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentUser.hpp">
+      <Filter>Fichiers d%27en-tête\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicEngine.hpp">
+      <Filter>Fichiers d%27en-tête\Application\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.hpp">
+      <Filter>Fichiers d%27en-tête\Application\System</Filter>
+    </ClInclude>
+    <ClInclude Include="DataType.inl">
+      <Filter>Fichiers d%27en-tête\Application\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.hpp">
+      <Filter>Fichiers d%27en-tête\Vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayGrid.hpp">
+      <Filter>Fichiers d%27en-tête\Application\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.hpp">
+      <Filter>Fichiers d%27en-tête\Core\ECS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OfficeAccount.inl">
+      <Filter>Fichiers d%27en-tête\Application\Definition</Filter>
+    </None>
+    <None Include="System.inl">
+      <Filter>Fichiers d%27en-tête\Application\Definition</Filter>
+    </None>
+    <None Include="Component.inl">
+      <Filter>Fichiers d%27en-tête\Application\Definition</Filter>
+    </None>
+    <None Include="Message.inl">
+      <Filter>Fichiers d%27en-tête\Application\Definition</Filter>
+    </None>
+    <None Include="State.inl">
+      <Filter>Fichiers d%27en-tête\Application\Definition</Filter>
+    </None>
+    <None Include="Transition.inl">
+      <Filter>Fichiers d%27en-tête\Application\Definition</Filter>
+    </None>
+    <None Include="Texture.inl">
+      <Filter>Fichiers d%27en-tête\Application\Definition</Filter>
+    </None>
+    <None Include="Resource.inl">
+      <Filter>Fichiers d%27en-tête\Application\Definition</Filter>
+    </None>
+    <None Include="Event.inl">
+      <Filter>Fichiers d%27en-tête\Application\Definition</Filter>
+    </None>
+  </ItemGroup>
+</Project>

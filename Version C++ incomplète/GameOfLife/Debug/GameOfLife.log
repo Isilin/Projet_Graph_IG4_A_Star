@@ -1,0 +1,137 @@
+﻿  DisplayGrid.cpp
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(69): error C2678: '[' binaire : aucun opérateur trouvé qui accepte un opérande de partie gauche de type 'const std::unordered_map<app::def::ComponentID,std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>' (ou il n'existe pas de conversion acceptable)
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\visual studio community 2015\vc\include\unordered_map(414): note: est peut-être 'std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>> &std::unordered_map<app::def::ComponentID,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>::operator [](const unsigned short &)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\visual studio community 2015\vc\include\unordered_map(236): note: ou       'std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>> &std::unordered_map<app::def::ComponentID,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>::operator [](unsigned short &&)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\workspace\gameoflife\gameoflife\componentmanager.hpp(69): note: lors de la tentative de mise en correspondance de la liste des arguments '(const std::unordered_map<app::def::ComponentID,std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>, const app::def::ComponentID)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\workspace\gameoflife\gameoflife\componentuser.hpp(63): note: voir la référence à l'instanciation de la fonction modèle 'T &core::ecs::ComponentManager::getComponent<T>(const app::def::ComponentID,const int) const' en cours de compilation
+          with
+          [
+              T=app::def::TextureID
+          ]
+  g:\workspace\gameoflife\gameoflife\displaygrid.cpp(22): note: voir la référence à l'instanciation de la fonction modèle 'T &core::ecs::ComponentUser::getComponent<app::def::TextureID>(const app::def::ComponentID,const int) const' en cours de compilation
+          with
+          [
+              T=app::def::TextureID
+          ]
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(69): error C2228: la partie gauche de '.find' doit avoir un class/struct/union
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(69): error C2088: '[' : non conforme pour class
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(69): error C2228: la partie gauche de '.end' doit avoir un class/struct/union
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(72): error C2678: '[' binaire : aucun opérateur trouvé qui accepte un opérande de partie gauche de type 'const std::unordered_map<app::def::ComponentID,std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>' (ou il n'existe pas de conversion acceptable)
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\visual studio community 2015\vc\include\unordered_map(414): note: est peut-être 'std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>> &std::unordered_map<app::def::ComponentID,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>::operator [](const unsigned short &)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\visual studio community 2015\vc\include\unordered_map(236): note: ou       'std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>> &std::unordered_map<app::def::ComponentID,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>::operator [](unsigned short &&)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\workspace\gameoflife\gameoflife\componentmanager.hpp(72): note: lors de la tentative de mise en correspondance de la liste des arguments '(const std::unordered_map<app::def::ComponentID,std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>, const app::def::ComponentID)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(72): error C2228: la partie gauche de '.access' doit avoir un class/struct/union
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(73): error C2662: 'void core::ecs::ComponentManager::lockComponent(const app::def::ComponentID,const int)' : impossible de convertir un pointeur 'this' de 'const core::ecs::ComponentManager' en 'core::ecs::ComponentManager &'
+  g:\workspace\gameoflife\gameoflife\componentmanager.hpp(73): note: La conversion perd les qualificateurs
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(74): error C2678: '[' binaire : aucun opérateur trouvé qui accepte un opérande de partie gauche de type 'const std::unordered_map<app::def::ComponentID,std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>' (ou il n'existe pas de conversion acceptable)
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\visual studio community 2015\vc\include\unordered_map(414): note: est peut-être 'std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>> &std::unordered_map<app::def::ComponentID,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>::operator [](const unsigned short &)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\visual studio community 2015\vc\include\unordered_map(236): note: ou       'std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>> &std::unordered_map<app::def::ComponentID,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>::operator [](unsigned short &&)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\workspace\gameoflife\gameoflife\componentmanager.hpp(74): note: lors de la tentative de mise en correspondance de la liste des arguments '(const std::unordered_map<app::def::ComponentID,std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>, const app::def::ComponentID)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(74): error C2228: la partie gauche de '.component' doit avoir un class/struct/union
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(75): error C2678: '[' binaire : aucun opérateur trouvé qui accepte un opérande de partie gauche de type 'const std::unordered_map<app::def::ComponentID,std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>' (ou il n'existe pas de conversion acceptable)
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\visual studio community 2015\vc\include\unordered_map(414): note: est peut-être 'std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>> &std::unordered_map<app::def::ComponentID,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>::operator [](const unsigned short &)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\visual studio community 2015\vc\include\unordered_map(236): note: ou       'std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>> &std::unordered_map<app::def::ComponentID,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>::operator [](unsigned short &&)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+  g:\workspace\gameoflife\gameoflife\componentmanager.hpp(75): note: lors de la tentative de mise en correspondance de la liste des arguments '(const std::unordered_map<app::def::ComponentID,std::unordered_map<int,core::ecs::TSComponent,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::hash<unsigned short>,std::equal_to<unsigned short>,std::allocator<std::pair<const unsigned short,std::unordered_map<_Kty,_Ty,std::hash<int>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>, const app::def::ComponentID)'
+          with
+          [
+              _Kty=int,
+              _Ty=core::ecs::TSComponent
+          ]
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(75): error C2228: la partie gauche de '.component' doit avoir un class/struct/union
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(75): error C2672: 'std::static_pointer_cast' : fonction correspondante surchargée introuvable
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(75): error C2227: la partie gauche de '->getValue' doit pointer vers un type class/struct/union/générique
+g:\workspace\gameoflife\gameoflife\componentmanager.hpp(80): error C2662: 'void core::ecs::ComponentManager::unlockComponent(const app::def::ComponentID,const int)' : impossible de convertir un pointeur 'this' de 'const core::ecs::ComponentManager' en 'core::ecs::ComponentManager &'
+  g:\workspace\gameoflife\gameoflife\componentmanager.hpp(80): note: La conversion perd les qualificateurs
+  Génération de code en cours...
+  Compilation en cours...
+  Application.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  main.cpp
+  System.cpp
+  Parser.cpp
+  LogicEngine.cpp
+  GraphicEngine.cpp
+  Engine.cpp
+  ComponentUser.cpp
+  ComponentManager.cpp
+  Génération de code en cours...
+g:\workspace\gameoflife\gameoflife\componentmanager.cpp(42): warning C4172: retourne l'adresse d'une variable locale ou : ids temporaire
+g:\workspace\gameoflife\gameoflife\componentuser.cpp(68): warning C4172: retourne l'adresse d'une variable locale ou : ids temporaire
+  Ignoré... (aucune modification pertinente détectée)
+  EntityManager.cpp
